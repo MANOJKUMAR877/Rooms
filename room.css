@@ -1,0 +1,183 @@
+@media(min-width:780px)
+{
+     .box{
+          position: absolute;
+          left:150px;
+          bottom:100 px;
+         
+     
+        
+          
+     }
+
+}
+
+
+
+
+.heading {
+     
+     position: relative;
+     color:rgb(81, 81, 185);
+     padding-left: 180px;
+     
+     
+     
+
+}
+
+.rooms {
+     border: 1px solid black;
+     width:500px;
+     position: relative;
+     
+
+
+}
+
+.plus0{
+     position: absolute;
+    
+     left:400px;
+     bottom:30px;
+     color:red;
+}
+#num0{
+     position: absolute;
+     left:360px;
+     bottom:12;
+}
+
+
+.minus0{
+     position: absolute;
+     left:300px;
+     bottom:30px;
+     color:rgb(81, 81, 185);
+
+}
+.adult{
+     border:1px solid black;
+     width:500px;
+     position: relative;
+
+}
+.minus1{
+     position: absolute;
+     left:300px;
+     bottom:30px;
+     color:rgb(81, 81, 185);
+         
+ }
+ #num1{
+      position: absolute;
+      left:360px;
+      bottom:12px;
+ }
+ .plus1{
+       position: absolute;
+       left:400px;
+       bottom:30;
+       color: red;
+ 
+ }
+ .child{
+     border: 1px solid black;
+     width:500px;
+     position: relative;
+
+}
+.minus2{
+    position: absolute;
+    left:300px;
+    bottom:30px;
+    color:rgb(81, 81, 185);    
+}
+#num2{
+     position: absolute;
+     left:360px;
+     bottom:12px;
+}
+.plus2{
+      position: absolute;
+      left:400px;
+      bottom:30;
+      color: red;
+
+}
+
+#roo{
+     padding-left:50px;
+     color:rgb(81, 81, 185);
+}
+#adu{
+     padding-left:50px;
+     color:rgb(81, 81, 185);
+
+}
+#chi{
+     padding-left:50px;
+     color:rgb(81, 81, 185);
+}
+#people{
+     position: absolute;
+     left:150px;
+     bottom:10px;
+}
+#bed{
+     position: absolute;
+     bottom:23px ;
+     left:8px;
+     color:rgb(81, 81, 185);
+}
+#usericon{
+     position: absolute;
+     bottom:23px ;
+     left:8px;
+     color:rgb(81, 81, 185);
+
+}
+#childicon{
+     position: absolute;
+     bottom:23px ;
+     left:8px;
+     color:rgb(81, 81, 185);
+
+
+
+}
+.roomplus{
+     color: red;
+     border: whitesmoke;
+}
+.roomminus{
+     color:rgb(81, 81, 185);
+     border: whitesmoke;
+}
+.adultminus{
+     color:rgb(81, 81, 185);
+     border: whitesmoke;
+}
+
+.adultplus{
+     color:red;
+     border: whitesmoke;
+}
+
+.childminus{
+     color:rgb(81, 81, 185);
+     border: white;
+}
+
+.childplus{
+     color:red;
+     border:whitesmoke;
+}
+
+.hea{
+     
+     margin-top: 10px;
+}
+#peo{
+     margin-top: 2px;
+}

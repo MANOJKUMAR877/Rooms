@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>
+        ROOM MANAGEMENT
+    </title>
+   
+
+<body class="body">
+    <div class="heading">
+        <div id="people">
+            <i class="fas fa-users"></i>
+        </div>
+        <div class="hea">
+            <h1 id="peo">Choose number of people</h1>
+        </div>
+
+    </div>
+    <div class="box">
+        <div class="rooms">
+            <div id="bed">
+                <i class="fas fa-bed"></i>
+
+            </div>
+            <h2 id="roo">ROOMS</h2>
+
+            <h3 id="num0">
+                <span id="numn0">1</span></h3>
+            <div class="plus0">
+                <i id="inc0" class="fas fa-plus-circle fa-2x" onclick="roomplus()"></i>
+            </div>
+            <div class="minus0">
+                <i id="dec0" class="fas fa-minus-circle fa-2x" onclick="roomminus()"></i>
+            </div>
+        </div>
+        <div class="adult">
+            <div id="usericon">
+                <i class="fas fa-user-alt"></i>
+            </div>
+            <h2 id="adu">ADULTS</h2>
+            <div class="minus1">
+                <i id="dec1" class="fas fa-minus-circle fa-2x" onclick="adultminus()"></i>
+            </div>
+            <h3 id="num1">
+                <span id="numn1">1</span></h3>
+            <div class="plus1">
+                <i id="inc1" class="fas fa-plus-circle fa-2x" onclick="adultplus()"></i>
+            </div>
+
+        </div>
+        <div class="child">
+            <div id="childicon">
+                <i class="fas fa-child"></i>
+            </div>
+            <h2 id="chi">CHILDREN</h2>
+            <div class="minus2">
+                <i id="dec2" class="fas fa-minus-circle fa-2x" onclick="childminus()"></i>
+            </div>
+            <h3 id="num2"><span id="numn2">0</span></h3>
+            <div class="plus2">
+                <i id="inc2" class="fas fa-plus-circle fa-2x" onclick="childplus()"></i>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="rooms.js">
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="room.css">
+    <script src="https://kit.fontawesome.com/df4d605c7d.js" crossorigin="anonymous"></script>
+</body>
+</head>
+
+</html>
